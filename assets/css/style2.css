@@ -8,14 +8,14 @@ h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-h2 {
+h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 }
 
-h3 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
+#content {
+	float: left;
+	width: 650px;
 }
 
 #logo {
@@ -27,9 +27,24 @@ h3 {
 	color: #fff;
 }
 
-#content {
-	float: left;
-	width: 650px;
+#navline {
+	width: 960px;
+}
+
+#border-content {
+	border-style: solid;
+    border-width: 1px;
+    width: 550px;
+    margin-top: 20px;
+}
+
+
+#border-content hr {
+	margin: 10px;
+}
+
+#content h2 {
+	margin: 10px;
 }
 
 #content img {
@@ -37,7 +52,8 @@ h3 {
 }
 
 #content p {
-	width: 480px;
+	width: 525px;
+	margin: 10px;
 }
 
 #sidebar {
@@ -67,6 +83,13 @@ h3 {
 
 #connect {
 	float: left;
+	border-style: solid;
+    border-width: 1px;
+    margin-top: 60px;
+}
+
+#connect h3, a, img {
+	margin: 10px;
 }
 
 #navbar {
