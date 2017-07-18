@@ -118,6 +118,18 @@ h2, h3 {
 
 /* Specific to Contact Form Only */
 
+form {
+	margin: 10px;
+}
+
+input {
+	width: 30%;
+}
+
+input[name=comment] {
+	width: 90%;
+	height: 100px;
+}
 
 
 /*Specific to Portfolio Page Only */
