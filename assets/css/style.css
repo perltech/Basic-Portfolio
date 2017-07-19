@@ -29,6 +29,7 @@ h2, h3 {
 
 #navline {
 	width: 960px;
+	margin: 0px;
 }
 
 #border-content {
@@ -143,6 +144,7 @@ input[type=submit] {
 	height: 50px;
 	width: 150px; 
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
 }
 
 
