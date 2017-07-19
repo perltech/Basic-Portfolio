@@ -120,12 +120,13 @@ h2, h3 {
 /* Specific to Contact Form Only */
 
 form {
-	margin: 10px;
-
+    margin: 10px;
 }
 
 input[type=text] {
 	width: 35%;
+	color: #777;
+	margin-bottom: 10px;
 }
 
 textarea {
