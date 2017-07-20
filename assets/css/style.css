@@ -174,7 +174,23 @@ input[type=submit] {
 	color: #fff;
 }
 
-div > img {
-	height: 300px;
-	width: 300px;
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  background-color: #333;
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+  max-width: 1000px;
+}
+
+#footer-line {
+	position: relative;
+	height: 20px;
+	max-width: 100%;
+	background: #4aaaa5;
 }
