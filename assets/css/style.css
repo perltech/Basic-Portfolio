@@ -48,9 +48,9 @@ h2, h3 {
 	margin: 10px;
 }
 
-#content img {
+/*#content img {
 	float: left;
-}
+}*/
 
 #content p {
 	width: 525px;
@@ -97,6 +97,9 @@ h2, h3 {
 	float: left;
 	line-height: 80px;
 }
+
+/* Don't forget footer */
+
 
 
 /* #content {
@@ -151,3 +154,27 @@ input[type=submit] {
 
 
 /*Specific to Portfolio Page Only */
+
+/*.portfolio-container {
+	display: flex;
+	flex-direction: row;
+}*/
+
+.portfolio-container img {
+	height: 250px;
+	width: 250px;
+}
+
+.portfolio-container div {
+	height: 50px;
+	width: 250px;
+	background: #4aaaa5;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+}
+
+div > img {
+	height: 300px;
+	width: 300px;
+}
